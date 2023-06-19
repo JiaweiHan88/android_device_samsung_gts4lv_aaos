@@ -19,6 +19,14 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <bool name="config_enableMultiUserUI">true</bool>
+    <integer name="config_multiuserMaximumUsers">4</integer>
+    <bool name="config_voice_capable">true</bool>
+    <bool name="config_sms_capable">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_forceDefaultOrientation">true</bool>
+    <integer name="config_defaultNightMode">2</integer>
+    
     <!-- Is the device capable of hot swapping an ICC Card -->
     <bool name="config_hotswapCapable">true</bool>
 
