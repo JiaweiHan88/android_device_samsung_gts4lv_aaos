@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from gts4lv device
-$(call inherit-product, device/zite/common/additions.mk)
+# $(call inherit-product, device/zite/common/additions.mk)
 $(call inherit-product, device/samsung/gts4lv/car.mk)
 $(call inherit-product, device/samsung/gts4lv/device.mk)
 
